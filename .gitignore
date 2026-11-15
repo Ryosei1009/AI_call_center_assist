@@ -1,0 +1,6 @@
+.venv/
+__pycache__/
+*.pyc
+output/
+.idea/
+demo_audio/

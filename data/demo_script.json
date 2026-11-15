@@ -1,0 +1,51 @@
+[
+  {
+    "file": "01_customer.wav",
+    "role": "customer",
+    "text": "先日テレビで見た瀬戸内海鮮セットのことで電話しました",
+    "new_call": false,
+    "point": "対象商品が入る"
+  },
+  {
+    "file": "02_customer.wav",
+    "role": "customer",
+    "text": "賞味期限はいつまでですか",
+    "new_call": false,
+    "point": "「90日」の回答候補と出典が出る"
+  },
+  {
+    "file": "03_customer.wav",
+    "role": "customer",
+    "text": "讃岐うどんセットの賞味期限はいつまでですか",
+    "new_call": false,
+    "point": "商品が切り替わり「180日」になる"
+  },
+  {
+    "file": "04_customer.wav",
+    "role": "customer",
+    "text": "瀬戸内海鮮セットの工場は見学できますか",
+    "new_call": false,
+    "point": "「候補なし」が出る"
+  },
+  {
+    "file": "05_customer.wav",
+    "role": "customer",
+    "text": "和牛すき焼きセットを注文したいです",
+    "new_call": true,
+    "point": "新しい通話になり、用件が「注文」になる"
+  },
+  {
+    "file": "06_operator.wav",
+    "role": "operator",
+    "text": "ご注文を受け付けました",
+    "new_call": false,
+    "point": "結果が「注文を受付」になる"
+  },
+  {
+    "file": "07_customer.wav",
+    "role": "customer",
+    "text": "やっぱりやめます",
+    "new_call": false,
+    "point": "結果が「お客様の希望で取りやめ」になる"
+  }
+]
